@@ -1,0 +1,33 @@
+$main__font__color: #000000;
+
+.info__wrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  > a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: $main__font__color 1px solid;
+    color: $main__font__color;
+  }
+}
+.info__date {
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 40px;
+}
+.info__label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  border: 1px solid $main__font__color;
+}
+.info__text {
+  margin-left: 30px;
+  padding-bottom: 40px;
+}

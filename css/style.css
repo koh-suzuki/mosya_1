@@ -226,6 +226,12 @@ img {
   vertical-align: top;
 }
 
+.section__title {
+  text-align: center;
+  margin: 60px 0 80px;
+  font-weight: normal;
+}
+
 /* header */
 .header {
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", sans-serif;
@@ -335,5 +341,41 @@ img {
 .header__title {
   text-align: center;
   padding: 28.5vh 0;
+}
+
+.info__wrapper {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 0 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.info__wrapper > a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: #000000 1px solid;
+  color: #000000;
+}
+
+.info__date {
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 40px;
+}
+
+.info__label {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 30px;
+  border: 1px solid #000000;
+}
+
+.info__text {
+  margin-left: 30px;
+  padding-bottom: 40px;
 }
 /*# sourceMappingURL=style.css.map */
