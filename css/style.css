@@ -234,11 +234,56 @@ img {
 
 .header .header__title {
   font-size: 3rem;
+  font-weight: normal;
   line-height: 3.625rem;
 }
 
 .header .header__item {
   font-size: 1.125rem;
   line-height: 1.375rem;
+}
+
+.header__bg {
+  background: url(/image/main.png) no-repeat center/cover;
+}
+
+.section__wrapper {
+  padding: 30px 15%;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 150px;
+  height: auto;
+}
+
+.header__logo img {
+  max-width: 100%;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__item {
+  margin-left: 50px;
+}
+
+.header__item > a {
+  color: #000000;
+}
+
+.header__title {
+  text-align: center;
+  padding: 28.5vh 0;
 }
 /*# sourceMappingURL=style.css.map */
