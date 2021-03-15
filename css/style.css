@@ -226,6 +226,7 @@ img {
   vertical-align: top;
 }
 
+/* header */
 .header {
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", sans-serif;
   font-weight: 400;
@@ -241,6 +242,50 @@ img {
 .header .header__item {
   font-size: 1.125rem;
   line-height: 1.375rem;
+}
+
+/* main */
+.main {
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+}
+
+.main .section__wrapper {
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+.main .section__title {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+  font-size: 2.375rem;
+  line-height: 2.875rem;
+}
+
+.main .info__wrapper {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.main .content__inner {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+}
+
+.main .content__inner .content__title {
+  font-size: 1.5rem;
+  line-height: 1.812rem;
+}
+
+.main .content__inner .content__area {
+  font-size: 0.875rem;
+  line-height: 1.062rem;
+}
+
+.main .content__inner .list__btn {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .header__bg {
