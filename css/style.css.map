@@ -4,7 +4,8 @@
     "sources": [
         "../sass/style.scss",
         "../sass/media/_mq.scss",
-        "../sass/base/_base.scss"
+        "../sass/base/_base.scss",
+        "../sass/font/_font.scss"
     ],
     "names": [],
     "file": "style.css"
