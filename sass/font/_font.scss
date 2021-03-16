@@ -38,19 +38,21 @@
       line-height: 0.812rem;
     }
   }
-  .content__inner {
-    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
-    .content__title {
-      font-size: 1.5rem;
-      line-height: 1.812rem;
-    }
-    .content__area {
-      font-size: 0.875rem;
-      line-height: 1.062rem;
-    }
-    .list__btn {
+
+  $content__wrapper__font: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+  .content__title {
+    font-family: $content__wrapper__font;
+    font-size: 1.5rem;
+    line-height: 1.812rem;
+  }
+  .content__area {
+    font-family: $content__wrapper__font;
+    font-size: 0.875rem;
+    line-height: 1.062rem;
+  }
+  .list__btn {
+      font-family: $content__wrapper__font;
       font-size: 1.25rem;
       line-height: 1.5rem;
-    }
   }
 }
