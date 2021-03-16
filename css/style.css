@@ -226,6 +226,10 @@ img {
   vertical-align: top;
 }
 
+.section__wrapper {
+  padding: 30px 170px;
+}
+
 .section__title {
   text-align: center;
   margin: 60px 0 80px;
@@ -280,31 +284,26 @@ img {
   line-height: 0.812rem;
 }
 
-.main .content__inner {
+.main .content__title {
   font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
-}
-
-.main .content__inner .content__title {
   font-size: 1.5rem;
   line-height: 1.812rem;
 }
 
-.main .content__inner .content__area {
+.main .content__area {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
   font-size: 0.875rem;
   line-height: 1.062rem;
 }
 
-.main .content__inner .list__btn {
+.main .list__btn {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
 
 .header__bg {
   background: url(/image/main.png) no-repeat center/cover;
-}
-
-.section__wrapper {
-  padding: 30px 15%;
 }
 
 .header__wrapper {
@@ -390,6 +389,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 
 .content__img {
@@ -418,12 +418,34 @@ img {
 }
 
 .list__btn {
-  margin: 80px auto 90px;
-  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 60px;
+  text-align: center;
 }
 
 .list__btn > a {
-  padding: 13px 41px;
+  width: 202px;
+  height: 50px;
+  padding: 13px 40px;
   border: 1px solid #000000;
+  display: block;
+}
+
+.nav__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.nav__img {
+  width: 480px;
+  height: auto;
+}
+
+.nav__img img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
