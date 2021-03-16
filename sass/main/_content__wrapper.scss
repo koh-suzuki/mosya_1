@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: calc(100% / 2);
 }
 .content__img {
   width: 430px;
@@ -50,7 +50,7 @@
   padding-top: 90px;
 }
 .nav__img {
-  width: 480px;
+  width: calc(100vw / 3);
   height: auto;
   img {
     max-width: 100%;
