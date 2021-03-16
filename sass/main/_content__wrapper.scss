@@ -1,0 +1,38 @@
+.content__case {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.content__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__img {
+  width: 430px;
+  height: auto;
+  img {
+    max-width: 100%;
+  }
+}
+.content__title {
+  margin: 29px 0 15px;
+}
+.content__area {
+  margin-bottom: 14px;
+}
+.detail__btn {
+  width: 300px;
+  img {
+    width: 100%;
+  }
+}
+.list__btn {
+  margin: 80px auto 90px;
+  width: 200px;
+  > a{
+    padding: 13px 41px;
+    border: 1px solid #000000;
+  }
+}
