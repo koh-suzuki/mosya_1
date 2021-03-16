@@ -38,7 +38,7 @@
       line-height: 0.812rem;
     }
   }
-
+  
   $content__wrapper__font: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
   .content__title {
     font-family: $content__wrapper__font;
@@ -51,8 +51,33 @@
     line-height: 1.062rem;
   }
   .list__btn {
-      font-family: $content__wrapper__font;
-      font-size: 1.25rem;
-      line-height: 1.5rem;
+    font-family: $content__wrapper__font;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    > a {
+      color: #000000;
+    }
+  }
+}
+
+/* footer */ 
+.footer {
+  $footer__font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: $footer__font-family;
+  font-style: normal;
+  .footer__nav {
+    font-family: $footer__font-family;
+    font-size: 1.125rem;
+    font-style: normal;
+    line-height: 1.375rem;
+    .footer__item > a {
+      color: #ffffff;
+    }
+  }
+  .copyright {
+    font-size: 0.75rem;
+    line-height: 0.875rem;
   }
 }
