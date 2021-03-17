@@ -372,6 +372,20 @@ img {
   padding: 28.5vh 0;
 }
 
+.hamburger__menu {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .header__nav {
+    display: none;
+  }
+  .hamburger__menu {
+    display: block;
+    margin: 0 30px;
+  }
+}
+
 .info__wrapper {
   width: 70%;
   margin: 0 auto;

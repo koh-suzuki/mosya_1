@@ -31,3 +31,16 @@
   text-align: center;
   padding: 28.5vh 0;
 }
+.hamburger__menu {
+  display: none;
+}
+
+@include mq-down($breakpoint: lg) {
+  .header__nav {
+    display: none;
+  }
+  .hamburger__menu {
+    display: block;
+    margin: 0 30px;
+  }
+}
