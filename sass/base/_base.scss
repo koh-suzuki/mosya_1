@@ -47,3 +47,9 @@ vertical-align: top;
   margin: 60px 0 80px;
   font-weight: normal;
 }
+
+@include mq-down($breakpoint: lg) {
+  .section__title {
+    margin: 0;
+  }
+}

@@ -31,3 +31,11 @@ $main__font__color: #000000;
   margin-left: 30px;
   padding-bottom: 40px;
 }
+
+@include mq-down($breakpoint: lg) {
+  .info__wrapper {
+    padding: 50px 20px;
+    margin: 0;
+    width: 100%;
+  }
+}
